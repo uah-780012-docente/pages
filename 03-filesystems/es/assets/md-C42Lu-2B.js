@@ -1,0 +1,7 @@
+import{L as e,T as t,Y as n,_ as r,b as i,g as a,gt as o,mt as s,x as c}from"./modules/shiki-LpgvQQpL.js";import{nt as l,rt as u}from"./index-n4lrVVd7.js";import{t as d}from"./default-BASB_wcl.js";import{t as f}from"./slidev/CodeBlockWrapper-qgRSfJo1.js";var p={__name:`03-filesystems.es.md__slidev_38`,setup(p){let{$slidev:m,$nav:h,$clicksContext:g,$clicks:_,$page:v,$renderContext:y,$frontmatter:b}=u();return g.setup(),(u,p)=>{let m=f;return e(),r(d,o(t(s(l)(s(b),37))),{default:n(()=>[p[1]||=a(`h1`,null,`Entrada de directorio — 32 bytes, campo a campo`,-1),c(m,{title:``,ranges:[]},{default:n(()=>[...p[0]||=[a(`pre`,{class:`shiki shiki-themes vitesse-dark vitesse-light slidev-code`,style:{"--shiki-dark":`#dbd7caee`,"--shiki-light":`#393a34`,"--shiki-dark-bg":`#121212`,"--shiki-light-bg":`#ffffff`}},[a(`code`,{class:`language-text`},[a(`span`,{class:`line`},[a(`span`,null,`Offset  Tamaño  Campo`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`0-7     8 B     Nombre (formato 8.3)`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`8-10    3 B     Extensión`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`11      1 B     Atributos`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`20-21   2 B     Cluster inicial, 16 bits altos`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`26-27   2 B     Cluster inicial, 16 bits bajos`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`28-31   4 B     Tamaño en bytes`)])])],-1)]]),_:1})]),_:1},16)}}};export{p as default};

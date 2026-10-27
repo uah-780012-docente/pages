@@ -1,0 +1,11 @@
+import{L as e,T as t,Y as n,_ as r,b as i,g as a,gt as o,mt as s,x as c}from"./modules/shiki-LpgvQQpL.js";import{nt as l,rt as u}from"./index-BAiZnAr9.js";import{t as d}from"./default-DPBm7XcW.js";import{t as f}from"./slidev/CodeBlockWrapper-C8ItRrgi.js";var p={__name:`03-filesystems.en.md__slidev_84`,setup(p){let{$slidev:m,$nav:h,$clicksContext:g,$clicks:_,$page:v,$renderContext:y,$frontmatter:b}=u();return g.setup(),(u,p)=>{let m=f;return e(),r(d,o(t(s(l)(s(b),83))),{default:n(()=>[p[1]||=a(`h1`,null,`What happens on the first access`,-1),c(m,{title:``,ranges:[]},{default:n(()=>[...p[0]||=[a(`pre`,{class:`shiki shiki-themes vitesse-dark vitesse-light slidev-code`,style:{"--shiki-dark":`#dbd7caee`,"--shiki-light":`#393a34`,"--shiki-dark-bg":`#121212`,"--shiki-light-bg":`#ffffff`}},[a(`code`,{class:`language-text`},[a(`span`,{class:`line`},[a(`span`,null,`process: p[1000]`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`   │  page table entry not present`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`   ▼`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`page fault ──► kernel: is that file block in the page cache?`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`                  │ no  ──► read it from disk into the page cache   (major fault)`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`                  │ yes ──► nothing to read                          (minor fault)`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`                  ▼`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`               map THAT SAME physical page into the process's page table`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`   │`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`   ▼`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`p[1000] is retried and succeeds — every later access is just RAM`)])])],-1)]]),_:1}),p[2]||=a(`p`,null,[i(`The page cache from the previous slides and the page tables from `),a(`code`,null,`02-virtual-memory`),i(` are the same machinery.`)],-1)]),_:1},16)}}};export{p as default};
