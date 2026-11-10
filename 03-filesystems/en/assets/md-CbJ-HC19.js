@@ -1,0 +1,15 @@
+import{L as e,T as t,Y as n,_ as r,b as i,g as a,gt as o,mt as s,x as c}from"./modules/shiki-LpgvQQpL.js";import{nt as l,rt as u}from"./index-D_wv367i.js";import{t as d}from"./slidev/CodeBlockWrapper-B_5tDuOD.js";import{t as f}from"./two-cols-B2PLBwbd.js";var p={class:`mt-8`},m={__name:`03-filesystems.en.md__slidev_10`,setup(m){let{$slidev:h,$nav:g,$clicksContext:_,$clicks:v,$page:y,$renderContext:b,$frontmatter:x}=u();return _.setup(),(u,m)=>{let h=d;return e(),r(f,o(t(s(l)(s(x),9))),{right:n(e=>[a(`div`,p,[c(h,{title:``,ranges:[]},{default:n(()=>[...m[0]||=[a(`pre`,{class:`shiki shiki-themes vitesse-dark vitesse-light slidev-code`,style:{"--shiki-dark":`#dbd7caee`,"--shiki-light":`#393a34`,"--shiki-dark-bg":`#121212`,"--shiki-light-bg":`#ffffff`}},[a(`code`,{class:`language-text`},[a(`span`,{class:`line`},[a(`span`,null,`$ truncate -s 64M fs.img`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`$ mkfs.ext4 -q -b 4096 fs.img`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`$ dumpe2fs -h fs.img     # selected lines`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`Filesystem magic number:  0xEF53`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`Filesystem state:         clean`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`Inode count:              16384`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`Block count:              16384`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`Free blocks:              14319`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`Free inodes:              16373`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`Block size:               4096`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`Blocks per group:         32768`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`Inodes per group:         16384`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`Inode size:               256`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`Mount count:              0`)]),i(`
+`),a(`span`,{class:`line`},[a(`span`,null,`Journal inode:            8`)])])],-1)]]),_:1})])]),default:n(()=>[m[1]||=a(`h1`,null,`The superblock`,-1),m[2]||=a(`div`,{class:`text-sm`},[a(`ul`,null,[a(`li`,null,`Describes the file system as a whole: total size, block size, free/used inode and block counts, and the inode size and inodes per group that locate any inode`),a(`li`,null,[i(`Mounting reads the superblock first; the `),a(`strong`,null,`magic number`),i(` (`),a(`code`,null,`0xEF53`),i(` in ext2/3/4) tells the kernel which file system it is looking at`)]),a(`li`,null,`A corrupted superblock makes the whole file system unreadable, so ext3/4 keep backup copies in other block groups; it also motivates journaling later in this chapter.`),a(`li`,null,[i(`Right: the superblock of a freshly created ext4, read with `),a(`code`,null,`dumpe2fs -h`),i(` (a 64 MiB file used as a disk, no root needed)`)])])],-1)]),_:1},16)}}};export{m as default};
