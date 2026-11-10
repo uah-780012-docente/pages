@@ -1,0 +1,1 @@
+var e=`/pages/01-memory-management/es/uah/logos/logo-eps-negro.png`;export{e as t};
